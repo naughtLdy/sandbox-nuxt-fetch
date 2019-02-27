@@ -3,14 +3,14 @@
 </template>
 
 <script>
-import LogoContainer from '~/pages/containers/index.vue'
+import LogoContainer from '~/containers/logo/index.vue'
 
 export default {
   components: {
     LogoContainer
   },
   fetch() {
-    console.log('pages directory fetch event')
+    console.log('container directory fetch event')
   }
 }
 </script>

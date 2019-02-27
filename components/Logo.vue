@@ -7,6 +7,14 @@
   </div>
 </template>
 
+<script>
+export default {
+  fetch() {
+    console.log('components directory fetch event')
+  }
+}
+</script>
+
 <style>
 .VueToNuxtLogo {
   display: inline-block;
